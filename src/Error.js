@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Error = ({error}) => {
+
+const Err = ({error}) => {
     if(error === 'error'){
-        throw Error('catch error')
+      throw new Error('catch error')
     }
     return (
         <div>
@@ -11,4 +12,4 @@ const Error = ({error}) => {
     )
 }
 
-export default Error;
+export default Err;

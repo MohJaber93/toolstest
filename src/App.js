@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         <ErrorBoundary>        
            <Error error='notError'/>
-          <Error error='error'/>
+           <Error error='error'/>
         </ErrorBoundary>
     </div>
   );
