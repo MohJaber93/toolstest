@@ -2,7 +2,7 @@ import React from 'react'
 
 const Error = ({error}) => {
     if(error === 'error'){
-        throw new Error('catch error')
+        throw Error('catch error')
     }
     return (
         <div>
